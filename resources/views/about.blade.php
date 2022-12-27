@@ -4,16 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>hello-city</title>
+        <title>About Us | hello-city</title>
 
     </head>
     <body >
             <h1>Hello from Quebec</h1>
 
-            <p>It's currently {{ date('h:i A') }} .</p> 
+            <p>built with &hearts; Kevin Mbumba du net </p> 
+            <p><a href="/">Revenir à la page d'Accueil</a></p>
 
             <footer>
                 <p>&COPY; copyright {{ date('Y')}} &middot; <a href="/about-us">About Us</a></p>
-            </footer>
+            </footer> 
     </body>
 </html>
