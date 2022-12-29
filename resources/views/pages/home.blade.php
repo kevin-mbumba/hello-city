@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    @extends('app')
 
-        <title>hello-city</title>
+    @section('content')
 
-    </head>
-    <body >
-            <h1>Hello from Quebec</h1>
+        <h1>Hello from Quebec</h1>
 
-            <p>It's currently {{ date('h:i A') }} .</p> 
-
-            <footer>
-                <p>&COPY; copyright {{ date('Y')}} &middot; <a href="/about-us">About Us</a></p>
-            </footer>
-    </body>
-</html>
+        <p>It's currently {{ date('h:i A') }} .</p> 
+    @endsection

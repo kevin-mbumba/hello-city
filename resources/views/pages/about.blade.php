@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    @extends('app')
 
-        <title>About Us | hello-city</title>
+    @section('content')
+         <h1>Hello from Quebec</h1>
 
-    </head>
-    <body >
-            <h1>Hello from Quebec</h1>
+        <p>built with &hearts; Kevin Mbumba du net </p> 
+        <p><a href="/">Revenir à la page d'Accueil</a></p>
+    @endsection
 
-            <p>built with &hearts; Kevin Mbumba du net </p> 
-            <p><a href="/">Revenir à la page d'Accueil</a></p>
-
-            <footer>
-                    <p>&COPY; copyright {{ date('Y')}};</p>
-            </footer> 
-    </body>
-</html>
