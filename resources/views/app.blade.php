@@ -12,7 +12,7 @@
             @yield('content')
 
             <footer>
-                <p>&COPY; copyright {{ date('Y')}} &middot; <a href="/about-us">About Us</a></p>
+                <p>&COPY; copyright {{ date('Y')}} &middot; <a href="{{Route('about')}}">About Us</a></p>
             </footer>
     </body>
 </html>
