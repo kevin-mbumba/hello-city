@@ -1,6 +1,6 @@
     @extends('app')
 
-    @section('title','About Us | Hello city ')    
+    @section('title','About Us | '.env('APP_NAME'))    
     @section('content')
          <h1>Hello from Quebec</h1>
 
