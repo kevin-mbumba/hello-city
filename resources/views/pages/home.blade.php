@@ -4,7 +4,7 @@
     @section('title')
     @section('content')
     
-    <img src="/images/kin.jpeg" alt="Kinshasa Flag" class="">
+    <img src="{{ asset('images/kin.jpeg') }}" alt="Kinshasa Flag" class="">
 
         <h1>Hello from Kinshasa</h1>
 
