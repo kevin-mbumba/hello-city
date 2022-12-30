@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://cdn.tailwindcss.com"></script>
 
-        <title>@yield('title',config('app.name'))</title>
+        <title>{{ page_title($title ?? null) }}</title>
 
     </head>
     <body class="py-6 flex flex-col justify-between items-center min-h-screen">

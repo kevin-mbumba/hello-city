@@ -1,6 +1,4 @@
-    @extends('app')
-
-    @section('title','About Us | '.config('app.name'))    
+    @extends('app', ['title'=>'About Us']) 
     @section('content')
          <img src="{{ asset('images/TeacherDuNet.png')}}" alt="Kinshasa flag" class="my-12 rounded-full shadow-md">
 

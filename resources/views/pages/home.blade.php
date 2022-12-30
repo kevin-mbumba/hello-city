@@ -1,7 +1,5 @@
     
     @extends('app')
-
-    @section('title')
     @section('content')
     
         <img src="{{ asset('images/kin.jpeg') }}" alt="Kinshasa Flag" class="mt-12 rounded shadow-md h32">
