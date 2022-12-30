@@ -3,8 +3,10 @@
 
     @section('title')
     @section('content')
+    
+    <img src="/images/kin.jpeg" alt="Kinshasa Flag" class="">
 
-        <h1>Hello from Quebec</h1>
+        <h1>Hello from Kinshasa</h1>
 
         <p>It's currently {{ date('h:i A') }} .</p> 
     @endsection
