@@ -2,11 +2,15 @@
 
     @section('title','About Us | '.config('app.name'))    
     @section('content')
-         <h1>Hello from Kinshasa</h1>
-         <img src="{{ asset('images/TeacherDuNet.png')}}" alt="Kinshasa flag" class="">
+         <img src="{{ asset('images/TeacherDuNet.png')}}" alt="Kinshasa flag" class="my-12 rounded-full shadow-md">
 
-        <p>built with &hearts; Kevin Mbumba du net </p> 
-        <p><a href="{{Route('home')}}">Revenir à la page d'Accueil</a></p>
+        <h2 class='mb-5'>built with <span class="text-pink-500" >&hearts;</span>   
+            Kevin Mbumba du net 
+        </h2> 
+
+        <p><a href="{{Route('home')}}" class="text-indigo-500  hover:text-indigo-600 underline">Revenir à la page d'Accueil</a>
+        
+        </p>
 
     @endsection
 
